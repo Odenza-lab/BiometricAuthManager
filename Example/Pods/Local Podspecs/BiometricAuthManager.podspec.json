@@ -1,0 +1,22 @@
+{
+  "name": "BiometricAuthManager",
+  "version": "0.1.0",
+  "summary": "A short description of BiometricAuthManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Den Seksan/BiometricAuthManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Den Seksan": "den@finnomena.com"
+  },
+  "source": {
+    "git": "https://github.com/Den Seksan/BiometricAuthManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BiometricAuthManager/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - BiometricAuthManager (0.1.0)
+
+DEPENDENCIES:
+  - BiometricAuthManager (from `../`)
+
+EXTERNAL SOURCES:
+  BiometricAuthManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BiometricAuthManager: 6f6bc5b267b3e5b23ae3b322e84690da144b5349
+
+PODFILE CHECKSUM: ad511254fb97693857214def39c37e07140680a7
+
+COCOAPODS: 1.11.2
