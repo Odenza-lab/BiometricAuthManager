@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'BiometricAuthManager_Example' do
+  pod 'BiometricAuthManager', :path => '../'
+
+  target 'BiometricAuthManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
