@@ -31,7 +31,7 @@ open class BiometricAuthManager: NSObject {
     }
 
     /// check biometric type
-    class func biometricType() -> BiometricType {
+    public class func biometricType() -> BiometricType {
         let context = LAContext()
         var error: NSError?
         let _ = context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error)
@@ -48,7 +48,7 @@ open class BiometricAuthManager: NSObject {
     }
 
     /// request biometric authentication
-    class func requestBiometric(
+    public class func requestBiometric(
         reason: String? = nil,
         fallbackTitle: String? = "",
         cancelTitle: String? = "",
